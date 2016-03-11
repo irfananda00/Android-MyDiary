@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group
+            android:id="@+id/menu_mainFunction"
+            android:checkableBehavior="single">
+            <item android:id="@+id/nav_diaries"
+                android:icon="@drawable/book_open"
+                android:title="Diaries" />
+            <item android:id="@+id/nav_overview"
+                android:icon="@drawable/chart_arc"
+                android:title="Overview" />
+            <item android:id="@+id/nav_rewards"
+                android:icon="@drawable/trophy_award"
+                android:title="Rewards" />
+            <item android:id="@+id/nav_notes"
+                android:icon="@drawable/note_outline"
+                android:title="Notes" />
+        </group>
+
+        <group
+            android:id="@+id/menu_userSettings"
+            android:checkableBehavior="none">
+            <item android:id="@+id/nav_settings"
+                android:icon="@drawable/settings"
+                android:title="Setting" />
+            <item android:id="@+id/nav_About"
+                android:icon="@drawable/information_outline"
+                android:title="About" />
+            <item android:id="@+id/nav_LogOut"
+                android:icon="@drawable/power"
+                android:title="Logout" />
+        </group>
+    </menu>
